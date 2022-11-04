@@ -174,7 +174,15 @@ public class OperaterExample {
 		resultA %= 3; // 0 resultA = resultA % 3
 		System.out.println(" %= : " + resultA);
 		
+		System.out.println("-------------------------");	
+		//삼항 연산자
+		int score = 85;
+		char grade = (score > 90) ? 'A' : 'B' ; // 'A' 반환
+		System.out.printf("성적은 %d이고 등급은 %s 입니다. \n", score, grade); // 문자도 %s로 출력
 		
+		int age = 17;
+		String message = (age >= 20) ? "성인" : "미성년자" ;
+		System.out.printf("나이는 %d살이며 %s입니다.\n", age, message); // printf는 꼭 줄바꿈하기
 	}
 
 }
