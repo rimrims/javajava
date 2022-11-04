@@ -48,5 +48,5 @@ public class VariableExample {
 		}
 		System.out.println("종료");
 	}
-
+		//git 관련 작업 추가
 }
