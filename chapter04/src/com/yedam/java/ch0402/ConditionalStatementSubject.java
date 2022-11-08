@@ -39,6 +39,7 @@ public class ConditionalStatementSubject {
 		System.out.println(cnt);
 		*/
 		
+		
 		for(int i=1; i<=100; i++) {
 			if(i%2 == 0) continue; // 조건 만족하면 다시 for문으로 돌아감
 			cnt++;
