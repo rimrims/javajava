@@ -1,5 +1,7 @@
 package com.yedam.java.ch0402;
 
+import java.util.Scanner;
+
 public class ConditionalStatementSubject {
 	public static void main(String[] args) {
 		// 문제1) 책 161p 5번
@@ -93,5 +95,63 @@ public class ConditionalStatementSubject {
 				}
 			}
 			System.out.println("주사위를 던진 횟수는 총 " + count + "번 입니다.");
+			
+			//문제6 ) 책 161p 6번
+			//    * -> 1번째 줄, 공백 3,별 1
+			//   ** -> 2번째 줄, 공백 2,별 2
+			//  *** -> 3번째 줄, 공백 1,별 3
+			// **** -> 4번째 줄, 공백 0,별 4
+										//공백과 별 더하면 4 된다는 규칙
+			
+			for(int i=1; i<=4; i++) { // line
+				for(int j=1; j<=4; j++) { // 내부 요소(문자 4개)
+					if(j<=(4-i)) { // 다시 생각해보기
+						System.out.print(" "); // 줄바꿈 방지로 print로
+					}else {
+						System.out.print("*");
+					}
+				}
+				System.out.println();
+			}
+			
+			//문제7 ) 161p 7번
+			
+			boolean run = true;
+			int balance = 0;
+			Scanner scanner = new Scanner(System.in);
+			
+			while(run) {
+				System.out.println("-------------------------");
+				System.out.println("1.예금|2.출금|3.잔고|4.종료");
+				System.out.println("-------------------------");
+				System.out.print("선택> ");
+				int selectNo = Integer.parseInt(scanner.nextLine());
+				// 캐스팅괄호로 안되는 이유: nextLine으로 받으면 string(객체-참조타입)이라 기본타입으로 바꾸려면 메소드를 이용. 기본타입끼리, 참조타입끼리는 캐스팅괄호로 가능. 
+				if(selectNo == 1) {
+					//메뉴 : 예금
+					System.out.print("예금액> ");
+					int money = Integer.parseInt(scanner.nextLine());
+					balance += money;
+					
+				}else if(selectNo == 2) {
+					//메뉴 : 출금
+					System.out.print("출금액> ");
+					int money = Integer.parseInt(scanner.nextLine());
+					balance -= money;
+					
+				}else if(selectNo == 3) {
+					//메뉴 : 잔고
+					System.out.println("잔고> " + balance);
+					
+				}else if(selectNo == 4){
+					//메뉴 : 종료
+					run = false;
+					
+				}else {
+					//기타입력
+					System.out.println("정해진 메뉴(1~4)에서 선택해주세요.");
+				}
+			}
+			System.out.println("프로그램 종료");
 	}
 }
