@@ -61,5 +61,6 @@ public class Exam06 {
 			}
 		}
 		System.out.println("프로그램 종료");
+
 	}
 }
