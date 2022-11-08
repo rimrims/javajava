@@ -68,5 +68,6 @@ public class Exam07 {
 				System.out.println("메뉴를 확인하고 다시 입력하세요.");
 			}
 		}
+		
 	}
 }
