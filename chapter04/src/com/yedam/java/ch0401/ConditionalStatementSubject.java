@@ -112,6 +112,8 @@ public class ConditionalStatementSubject {
 			default:
 				System.out.println("E등급");
 			}
+		
+		//깃 재 
 					
 	}
 
