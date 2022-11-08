@@ -22,6 +22,7 @@ public class ReferenceTypeExample {
 			System.out.println("strVar1과 strVar2가 문자열이 같음");
 		}
 		
+		
 		System.out.println("------------------------------------");
 		
 		String strVar3 = new String("신미철");
