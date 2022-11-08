@@ -78,6 +78,7 @@ public class ConditionalStatementExample {
 			System.out.println("6번이 나왔습니다.");
 		}
 		
+		
 		System.out.println("------------------------------------------");
 
 		// switch문
