@@ -44,10 +44,11 @@ public class Exam07 {
 				System.out.println();
 				
 			} else if (selectNo == 5) { // 중복유무와 중복된 값이 몇 번 중복되었는지
-				int[] list = new int[45]; // 빈 방(선거후보 방)
+				int[] list = new int[45]; // 빈 방(선거후보 방).
 				for(int i=0; i<count; i++) {
-					int index = numList[i] - 1;
-					list[index]++; // 각 값이 몇개씩 존재하는지 확인  
+					int index = numList[i] - 1; // index는 0~44
+												// ex) numList[0]값이 3이었다면, list[2]에 체크해야하므로 -1해줌.
+					list[index]++; // ex) list[0]에 1 더함. = list[index] += 1;
 				}
 				
 				boolean isChecked = false; // 중복여부체크
