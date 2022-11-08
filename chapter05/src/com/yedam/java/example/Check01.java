@@ -13,6 +13,7 @@ public class Check01 {
 		avg = sum / (double)array.length; // sum을 모두 구하고 평균 구해야하므로 for문 밖에서
 		System.out.printf("배열의 총합은 %d이고 평균은 %.2f입니다.\n",sum,avg);
 		
+		
 		// 문제2 ) 배열의 최댓값 최솟값 구하기
 		
 		int max = array[0];
