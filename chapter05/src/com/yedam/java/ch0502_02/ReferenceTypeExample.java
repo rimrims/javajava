@@ -10,6 +10,7 @@ public class ReferenceTypeExample {
 			System.exit(0);
 		}
 		
+		
 		System.out.println("입력값 : " + args[0]);
 		String strNum1 = args[0];
 		String strNum2 = args[1]; // argument에서 공백 띄워서 두개 넣어줌
