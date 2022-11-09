@@ -48,7 +48,7 @@ public class Exam07 {
 				for(int i=0; i<count; i++) {
 					int index = numList[i] - 1; // index는 0~44
 												// ex) numList[0]값이 3이었다면, list[2]에 체크해야하므로 -1해줌.
-					list[index]++; // ex) list[0]에 1 더함. = list[index] += 1;
+					list[index]++; // ex) list[2]에 1 더함. = list[index] += 1;
 				}
 				
 				boolean isChecked = false; // 중복여부체크
