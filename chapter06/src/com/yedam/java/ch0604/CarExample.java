@@ -6,14 +6,14 @@ public class CarExample {
 		
 		myCar.setGas(5);
 		
-		/*
+		
 		boolean gasState = myCar.isLeftGas();
 		if(gasState) {
 			System.out.println("출발합니다.");
 			myCar.run();
 		}
-		 */
+		 
 		
-		myCar.run();
+//		myCar.run();
 	}
 }

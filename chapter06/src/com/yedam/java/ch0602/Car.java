@@ -7,7 +7,7 @@ public class Car {
 	String model = "캐스퍼";
 	String color = "파랑";
 	
-	int maxSpeed = 350; // 클래스에서 기본값
+	int maxSpeed = 350;
 	int speed; // 가변적으로 움직이는 값 (인스턴스에서 다룸)
 	
 	/*

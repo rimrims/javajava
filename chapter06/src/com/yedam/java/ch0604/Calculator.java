@@ -8,7 +8,8 @@ public class Calculator {
 	
 	int plus(int x, int y){ // 리턴값 매소드이름(매개변수)
 		int result = x + y;
-		return result; // return: 인스턴스에서 메소드 호출하면 그 매개변수를 넣어서 메소드 실행. 
+		return result;
+		// return: 인스턴스에서 매개변수를 넣어서 메소드 실행. 새로운 변수에 리턴값을 받는다.
 	}
 	
 	double divide(int x, int y){

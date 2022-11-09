@@ -8,11 +8,11 @@ public class Car {
 	//생성자
 	
 	//메소드
-	void setGas(int gas) {
+	void setGas(int gas) { // 리턴값 x. 매개변수 o
 		this.gas = gas;
 	}
 	
-	boolean isLeftGas() { // 가스 잔량확인 메소드
+	boolean isLeftGas() { // 가스 잔량확인 메소드. boolean타입으로 반환
 		if(gas == 0) { // 필드의 가스를 가리킴. 메소드에 가스 가리키는 것 없기 때문
 			System.out.println("gas가 없습니다.");
 			return false; // 메소드에서 return 만나면 무조건 메소드 종료

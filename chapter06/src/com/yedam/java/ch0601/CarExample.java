@@ -2,7 +2,7 @@ package com.yedam.java.ch0601;
 
 public class CarExample {
 	public static void main(String[] args) { // 실행파일에는 메인이 꼭 있어야.
-		Car car1 = new Car(); //타입선언 변수이름선언 = 인스턴스화함. => 생성자 호출
+		Car car1 = new Car(); //클래스 변수 = new 클래스(); => 생성자 호출 => 객체생성
 		System.out.println("최대 스피드 : " + car1.maxSpeed);
 		System.out.println("색깔 : " + car1.color); // 필드 호출
 		car1.run(); // 메소드 호출

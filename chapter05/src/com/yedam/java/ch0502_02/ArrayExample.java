@@ -27,7 +27,7 @@ public class ArrayExample {
 		for(int i=0; i<mathScores.length; i++) {
 			System.out.println("mathScores["+i+"]");
 			
-			for(int j=0; j<mathScores[i].length; j++) {
+			for(int j=0; j<mathScores[i].length; j++) { // 배열 안의 배열이라서
 				System.out.print("\t mathScores[" + i + "][" + j + "] :");
 				System.out.println(mathScores[i][j]);
 			}
@@ -83,10 +83,6 @@ public class ArrayExample {
 		for(int i=0; i < oldIntAry.length ; i++) { // 배열 복사할 때는 작은 쪽에 크기 맞춤(oldIntAry 기준)
 			newIntAry[i] = oldIntAry[i];
 		}
-		
-//		for(int i=1; i < oldIntAry.length ; i++) { // 
-//			newIntAry[i] = oldIntAry[i];
-//		}
 		
 		for(int i=0; i<newIntAry.length; i++) {
 			System.out.println(newIntAry[i]);

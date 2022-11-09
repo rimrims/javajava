@@ -14,7 +14,7 @@ public class Computer {
 	}
 	
 //	2. 그냥 매개변수 넣어주면 배열로 만들어져서 호출됨
-	int sum2(int ... values) { // 몇 개든 받을 수 있음. values는 배열만 받기 가능. 그냥 매개변수는 배열이라 생각하자!
+	int sum2(int ... values) { // ... : 몇 개든 받을 수 있음. 뒤에 오는 변수에 배열로 받아짐.
 		int sum = 0;
 		for(int i=0; i<values.length; i++) {
 			sum += values[i];
