@@ -1,7 +1,7 @@
 package com.yedam.java.ch0701_06;
 
 //public final class Student { // 상속되지 않는 클래스
-public class Student { // 상속되지 않는 클래스
+public class Student { 
 
 	//메소드
 	public void setScore() {

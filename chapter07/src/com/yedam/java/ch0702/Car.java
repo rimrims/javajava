@@ -2,13 +2,11 @@ package com.yedam.java.ch0702;
 
 public class Car {
 	
-	//필드
 	Tire frontLeftTire = new Tire("앞왼쪽",6);
 	Tire frontRightTire = new Tire("앞오른쪽",2);
 	Tire backLeftTire = new Tire("뒤왼쪽",3);
-	Tire backRightTire = new Tire("뒤오른쪽",4); // 필드타입을 부모타입으로 선언(Tire타입)
+	Tire backRightTire = new Tire("뒤오른쪽",4);
 	
-	//생성자
 	
 	//메소드
 	int run() {

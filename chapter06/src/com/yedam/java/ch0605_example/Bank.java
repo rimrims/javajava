@@ -22,8 +22,8 @@ public class Bank {
 			System.out.println("=== 출금 ===");
 			System.out.println("출금하실 경우 아래의 금액으로 출금이 가능합니다.");
 			System.out.println("원금 : " + money);
-			System.out.println("금리 : %");
-			System.out.println("예상 금액 : " + ((money)+(money*0.3)) + "원 입니다.");
+			System.out.println("금리 : 0.03%");
+			System.out.println("예상 금액 : " + ((money)+(money*0.03)) + "원 입니다.");
 		}
 		
 		public String getName() {

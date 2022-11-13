@@ -2,14 +2,12 @@ package Test221111;
 
 public class Movie extends Culture{
 	
+	public String Genre;
+	
 	public Movie(String title, int directorNum, int actorNum,String Genre) {
 		super(title, directorNum, actorNum);
 		// TODO Auto-generated constructor stub
 	}
-
-
-	public String Genre;
-	
 
 	@Override
 	public void getInformation() {

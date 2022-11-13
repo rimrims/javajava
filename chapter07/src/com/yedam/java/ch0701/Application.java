@@ -32,11 +32,12 @@ public class Application {
 		//부모 클래스에 있는 필드, 메소드 사용함.
 		//단, 자식 클래스에 오버라이딩이 되어 있는 메소드가 존재한다면
 		//부모 클래스에 정의된 메소드를 사용하지 않고 자식 클래스에 있는 메소드를 사용
+		// ==> 몸통은 부모, 자식에서 오버라이딩 된 것만 가져옴 <==
 		Child chd = new Child();
 		Parent parent = chd; // Parent Parent = new Child(); // 자식이 부모 타입으로 바뀜. -> 부모타입 클래스만 사용가능.
 							// like 상속과 반대의 개념 (부모가 자식 것 들고와서 씀)
 		
-		parent.method1(); // 오버라이딩. 그래서 자식 메소드 들고옴. 출처는 부모클래스니까 사용가능
+		parent.method1(); // 오버라이딩. 그래서 자식 메소드 들고옴
 		parent.method2(); // 부모 메소드
 //		parent.method3(); // 자식 메소드라서 x
 		

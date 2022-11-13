@@ -6,8 +6,11 @@ public class Exeapp {
 
 	Scanner sc = new Scanner(System.in);
 	Bank[] Bary = null;
+	
+	//필드
 	int menuNo;
 
+	//생성자
 	public Exeapp() {
 
 		while (true) {
@@ -37,7 +40,9 @@ public class Exeapp {
 		}
 
 	}
-
+	
+	//메소드
+	
 	// 메뉴 출력
 	public void showMenu() {
 		System.out.println("===========================================================");

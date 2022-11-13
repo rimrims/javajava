@@ -24,7 +24,7 @@ public class Application_shoes {
 		System.out.println(Shoes.totalCount);
 		
 		//인스턴스화 시키면 static 메소드와 필드 사용가능함.
-		ConstantNo csno = new ConstantNo(); // 
+		ConstantNo csno = new ConstantNo();
 		System.out.println(csno.word);
 		System.out.println(csno.words);
 		

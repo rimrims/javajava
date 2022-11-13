@@ -3,12 +3,6 @@ package com.yedam.java.ch0605_example;
 import java.util.Scanner;
 
 public class Application {
-	// 배열
-	int[] ary = new int[6];
-
-	Scanner sc = new Scanner(System.in);
-	Bank[] Bary = null;
-
 	public static void main(String[] args) {
 
 		// 고객정보입력프로그램

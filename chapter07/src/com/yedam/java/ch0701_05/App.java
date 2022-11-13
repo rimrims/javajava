@@ -11,7 +11,7 @@ public class App {
 		
 		sa.fly();
 		
-		sa.flyMode = SupersonicAirPlane.SUPERSONIC;
+//		sa.flyMode = SupersonicAirPlane.SUPERSONIC;
 		
 		sa.fly();
 		

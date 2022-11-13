@@ -12,9 +12,9 @@ public class EmpDept extends Employee{
 
 	@Override
 	public void getInformation() {
-		System.out.println("이름 : " + name);
-		System.out.println("연봉 : " + salary);
-		System.out.println("부서 : " + team);
+		System.out.print("이름:" + name);
+		System.out.print(" 연봉:" + salary);
+		System.out.println(" 부서:" + team);
 	}
 
 	@Override

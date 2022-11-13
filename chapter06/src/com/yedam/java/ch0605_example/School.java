@@ -9,9 +9,9 @@ public class School {
 		
 		System.out.println("학생 수 >");
 		int studentNo = Integer.parseInt(sc.nextLine());
-		Student[] stuScore = new Student[studentNo];
+		Student[] stuScore = new Student[studentNo]; // 클래스를 배열로 받음. 입력받은 학생 수대로 배열 크기 결정됨
 		
-		for(int i=0; i<stuScore.length; i++) {
+		for(int i=0; i<stuScore.length; i++) { //객체 만들어서 배열에 넣는다.
 			Student student = new Student();
 			
 			System.out.println("이름 >");

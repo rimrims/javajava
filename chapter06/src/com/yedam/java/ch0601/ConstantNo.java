@@ -13,14 +13,14 @@ public class ConstantNo {
 	//생성자
 	
 	//메소드
-	//static 필드에 사용 범위(scope)
+	//static 필드의 사용 범위
 	static void getCircle(int radius) { // 정적 메소드
 		//원넓이 : pi * r * r
 		System.out.println("원의 넓이 : " + (PI*radius*radius)); // 정적 필드를 가져와서 사용, 매개변수있음
 		
 	}
 	
-	//메소드에 static 필드 호출 --- 다시 확인
+	//메소드에 static 필드 호출
 	public void allData() {
 		double result = PI + EARTH_ROUND + LIGHT_SPEED;
 		System.out.println(result);

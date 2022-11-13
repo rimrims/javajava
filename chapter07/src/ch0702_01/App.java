@@ -2,7 +2,7 @@ package ch0702_01;
 
 public class App {
 	public static void method1(Parent parent) {
-		if (parent instanceof Child) { // 뭘 참조해서 객체 만들었는지 비교
+		if (parent instanceof Child) { // 만약 parent 매개변수가 참조하는 객체가 Child라면,
 			Child child = (Child) parent; // 강제타입변환
 			System.out.println("method1 - child 변환 성공");
 		}else {
