@@ -17,7 +17,7 @@ public class MyClass {
 	
 	//메소드
 	void methodA() {
-		RemoteControl rc = new Audio(); // Audio통해 Rem어쩌구 만듦.
+		RemoteControl rc = new Audio(); 
 		rc.turnOn();
 		rc.turnOff();
 	}

@@ -1,6 +1,4 @@
-package com.yedam.java.ch1101_01;
-
-import java.util.HashMap;
+package com.yedam.java.ch1101오브젝트;
 
 public class MemberExample {
 	public static void main(String[] args) {
@@ -18,18 +16,9 @@ public class MemberExample {
 		}
 		
 		if(obj1.equals(obj3)) {
-			System.out.println("obj1과 obj2는 동등");
+			System.out.println("obj1과 obj3는 동등");
 		}else {
-			System.out.println("obj1과 obj2는 같지 않음");
+			System.out.println("obj1과 obj3는 같지 않음");
 		}
-		
-		HashMap<Member, String> member = new HashMap<>();
-		//ex. new Member("1") -> 주소가 10, 해쉬코드 1
-		
-		member.put(new Member("1"), "홍길동");
-		//ex. new Member("1") -> 주소가 10, 해쉬코드 1
-		
-		String value = member.get(new Member("1"));
-		System.out.println(value);
 	}
 }

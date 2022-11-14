@@ -1,6 +1,4 @@
-package com.yedam.java.ch1101_02;
-
-import com.yedam.java.ch1101_01.Key;
+package com.yedam.java.ch1101_02해쉬코드;
 
 public class Student {
 	private String studentNum;

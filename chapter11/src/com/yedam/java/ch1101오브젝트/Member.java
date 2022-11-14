@@ -1,8 +1,7 @@
-package com.yedam.java.ch1101_01;
+package com.yedam.java.ch1101오브젝트;
 
 public class Member {
 	
-
 	public String id;
 	
 	public Member(String id) {
@@ -20,12 +19,5 @@ public class Member {
 			return true;
 		}
 		return false;
-	}
-	
-	@Override
-	public int hashCode() {
-		//String a = "1";
-		//String b = "1"; // 같은 객체
-		return id.hashCode();
 	}
 }

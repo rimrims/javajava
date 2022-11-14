@@ -1,4 +1,4 @@
-package com.yedam.java.ch0801_04;
+package com.yedam.java.ch0801_04강제타입변환;
 
 public class Taxi implements Vehicle {
 

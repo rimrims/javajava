@@ -1,4 +1,4 @@
-package com.yedam.java.ch1101_01;
+package com.yedam.java.ch1101_01해쉬코드;
 
 public class Key {
 
