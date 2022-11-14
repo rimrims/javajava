@@ -11,7 +11,6 @@ public class StringTest {
 		}
 		System.out.println();
 
-		
 //		=========================================================
 		
 		byte[] bytes = null;
@@ -29,6 +28,10 @@ public class StringTest {
 			}
 		}
 		System.out.println("숫자 : " + numSum + "영어 : " + engSum);
+		
+//		=========================================================
+		
+		
 		
 	}
 }
