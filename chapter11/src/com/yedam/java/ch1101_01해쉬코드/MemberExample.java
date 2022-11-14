@@ -1,4 +1,6 @@
-package com.yedam.java.ch1101;
+package com.yedam.java.ch1101_01해쉬코드;
+
+import java.util.HashMap;
 
 public class MemberExample {
 	public static void main(String[] args) {
@@ -20,5 +22,14 @@ public class MemberExample {
 		}else {
 			System.out.println("obj1과 obj2는 같지 않음");
 		}
+		
+		HashMap<Member, String> member = new HashMap<>();
+		//ex. new Member("1") -> 주소가 10, 해쉬코드 1
+		
+		member.put(new Member("1"), "홍길동");
+		//ex. new Member("1") -> 주소가 10, 해쉬코드 1
+		
+		String value = member.get(new Member("1"));
+		System.out.println(value);
 	}
 }

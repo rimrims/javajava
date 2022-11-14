@@ -1,6 +1,6 @@
 package ch1101_04;
 
-import com.yedam.java.ch1101_01.Key;
+import com.yedam.java.ch1101_01해쉬코드.Key;
 
 public class ClassExample { 
 	public static void main(String[] args) throws ClassNotFoundException {
@@ -11,7 +11,7 @@ public class ClassExample {
 		
 		System.out.println(clazz);
 		//2. 경로를 통한 클래스 객체 가져오기
-		Class clazz2 = Class.forName("com.yedam.java.ch1101_01.Key");
+		Class clazz2 = Class.forName("com.yedam.java.ch1101_01해쉬코드.Key");
 		
 		System.out.println(clazz2);
 		

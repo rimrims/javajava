@@ -56,7 +56,7 @@ public class StringExample {
 			System.out.println("다른 문자열 가짐");
 		}
 		
-//		바이트 배열로 변환
+//		String을 바이트 배열로 변환
 		byte[] bytes2 = null;
 		String str = "안녕하세요"; // 한글은 한 글자에 3byte
 		bytes2 = str.getBytes();

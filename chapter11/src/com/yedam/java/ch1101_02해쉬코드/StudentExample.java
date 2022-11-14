@@ -1,4 +1,4 @@
-package com.yedam.java.ch1101_02;
+package com.yedam.java.ch1101_02해쉬코드;
 
 import java.util.HashMap;
 
